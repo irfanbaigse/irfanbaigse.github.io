@@ -4,7 +4,7 @@
 # baseurl is the website's URL without the hostname
 
 # If you are building a simple GitHub user page (http://username.github.io) then use these settings:
-url: "http://username.github.io"
+url: "http://irfanbaigdev.github.io"
 baseurl: ""
 
 # If you are building a GitHub project page then use these settings:
@@ -25,10 +25,10 @@ description: Blog, scrapbook, and virtual space for my experiments
 navbar-links:
   About Me: "aboutme"
   Resources:
-    - Beautiful Jekyll: "http://deanattali.com/beautiful-jekyll/"
+    - Beautiful Jekyll: "http://irfanbaigdev.com/beautiful-jekyll/"
     - Learn markdown: "http://www.markdowntutorial.com/"
     - GitHub Pages: "https://pages.github.com/"
-  Author's home: "http://deanattali.com"
+  Author's home: "http://irfanbaigdev.com"
 
 # Image to show in the navigation bar - image must be a square (width = height)
 # Remove this parameter if you don't want an image in the navbar
@@ -49,7 +49,7 @@ author:
   github: irfanbaigdev
   twitter: irfanbaigdev
   reddit: irfanbaigdev
-  google-plus: +IrfanBaigDev   # eg. +DeanAttali or 109424658772469020925
+  google-plus: +IrfanBaigDev   # eg. +irfanbaigdev or 109424658772469020925
   linkedin: irfanbaigdev  # eg. daattali
   xing: yourname      # eg. daattali
   stackoverflow: 1906136/irfanbaigdev  # eg. "3943160/daattali"
@@ -88,7 +88,7 @@ share-links-active:
 
 # How to display the link to the website in the footer
 # Remove this if you don't want a link in the footer
-url-pretty: "irfanbaigdev.github.io"  # eg. "deanattali.com/beautiful-jekyll"
+url-pretty: "irfanbaigdev.github.io"  # eg. "irfanbaigdev.com/beautiful-jekyll"
 
 # --- Misc --- #
 # Fill in your Disqus shortname (NOT the userid) if you want to support Disqus comments

@@ -95,7 +95,7 @@ url-pretty: "irfanbaigdev.github.io"  # eg. "irfanbaigdev.com/beautiful-jekyll"
 #disqus: ""
 
 # Fill in your Google Analytics ID to track your website using GA
-#google_analytics: ""
+google_analytics: "UA-97405342-1"
 
 # Google Tag Manager ID
 #gtm: ""

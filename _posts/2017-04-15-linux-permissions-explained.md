@@ -9,16 +9,25 @@ tags: [linux, exciting-stuff]
 
 This post is not intend to redefine the linux permissions its is just get to basic idea what it means.
 
-## In Linux, there are two types of users
-    - system users and 
+**In Linux, there are two types of users**
+
+	- system users 
     - regular users
     
-## View Permissions
+System users are used to run non-interactive or background processes on a system and regular users used for logging in and running processes interactively  
+    
+    
+**View Permissions**
 ```
-$ls -al /path
+$ls -al [path]
 ```
     
-## Chmod Octal Format
+**Give Permissions**
+```
+$chmod [permission] [path]
+```
+    
+**Chmod Octal Format**
 
 | Octal Value | Read | Write | Execute |
 | :------ |:--- | :--- |

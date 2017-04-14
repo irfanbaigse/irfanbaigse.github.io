@@ -2,7 +2,10 @@
 layout: page
 title: About me
 subtitle: Build. Innovative. Work Harder.
+ext-css: //github-profile.com/dist/gh-profile-card.min.css
+ext-js: //github-profile.com/dist/gh-profile-card.min.js
 ---
+___
 
 I am a programmer with a strong focus on backend development. 
 
@@ -14,14 +17,23 @@ I am an agile developer, following agile and lean principles in my professional 
 
 What else do you need?
 
+___
+
+**Github Card**
+<div markdown="1" id="github-card" data-username="irfanbaigdev">
+
+</div>
+___
+
 ## My history
+```
+Oct 2015 – Present  | Tajawal
 
-Oct 2015 – Present  Tajawal
+Sep 2014 – Oct 2015 | NetiApps Software
 
-Sep 2014 – Oct 2015 NetiApps Software
+Jul 2013 – Aug 2014 | Provab Technosoft
 
-Jul 2013 – Aug 2014 PROVAB TECHNOSOFT
+Jun 2012 – Jun 2013 | Intellahub Technologies
 
-Jun 2012 – Jun 2013 Intellahub Technologies
-
-Jul 2011 – May 2012 Skywaves Consulting 
+Jul 2011 – May 2012 | Skywaves Consulting 
+```

@@ -23,6 +23,8 @@ description: Blog, scrapbook, and virtual space for my experiments
 
 # List of links in the navigation bar
 navbar-links:
+  Home: "http://www.irfanbaigdev.info"
+  Projects: "#"
   About Me: "aboutme"
 #  Resources:
 #    - Beautiful Jekyll: "http://irfanbaigdev.com/beautiful-jekyll/"

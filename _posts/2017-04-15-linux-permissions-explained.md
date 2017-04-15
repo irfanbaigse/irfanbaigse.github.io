@@ -18,6 +18,7 @@ function do_chmod(c){var o=c+"4",e=c+"2",d=c+"1",m="t_"+c,u="sym_"+c,t=0,h="";1=
 	* [What are File permissions ?](#file-permissions-?)
 	* [Permissions types](#what-are-file-permissions-?)
 	* [Types of users](#permissions-types)
+	* [Permission Indicators](#permission-indicators)
 	* [Octal table](#chmod-octal-value-binary-value-and-meaning)
 	* [Setting Permissions with Chmod](#chmod-octal-value-binary-value-and-meaning)
 * [Chmod Helper](#chmod-helper)
@@ -48,7 +49,7 @@ In linux, every file or folder has access permissions. Linux file permissions ar
 
 ### Permission Indicators:
 
-![Permission Indicators](/assets/posts/2017-04-15-linux-permissions-explained/permission_indicators.png){:class="img-responsive"}
+![Permission Indicators](/assets/posts/2017-04-15-linux-permissions-explained/permission_indicators.jpg){:class="img-responsive"}
    
 ### Chmod octal value binary value and meaning:
 `chmod` stands for `change mode`

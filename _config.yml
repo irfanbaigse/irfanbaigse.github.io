@@ -61,6 +61,16 @@ author:
   spotify: yourname   # eg. daattali
   telephone: yourphone   # eg. +14159998888
 
+# Dynamic authors
+authors:
+  irfan:
+    display_name: Irfan baig
+    gravatar: c87ab635443e6f65369bbe467b956445
+    email: irfan.blackhawk@gmail.com
+    web: http://www.irfanbaigdev.info
+    twitter: irfanbaigdev
+    github: irfanbaigdev
+
 # Select which links to show in the footer
 footer-links-active:
   rss: false

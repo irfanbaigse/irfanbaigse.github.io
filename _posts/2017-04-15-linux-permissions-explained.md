@@ -7,6 +7,7 @@ subtitle: Understanding linux file permissions
 show-avatar: true
 comments: true
 tags: [linux, linux-permissions]
+author: irfan
 meta-data: access, calculator, chgrp, chmod, chown, cli, command, convert, file, group line, linux, lookup, lpi octal, permission, permissions, perms, program, script, shell, symbolic, unix, user
 ---
 

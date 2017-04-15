@@ -137,6 +137,8 @@ err := os.Chmod("file.txt", 0777)
 ?>
 ```
 
+-----
+
 #### Python:
 ***Format***: `os.chmod(path, mode)`  [click here for docs](https://docs.python.org/2/library/os.html#os.chmod){:target="_blank"}
 

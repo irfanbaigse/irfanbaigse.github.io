@@ -8,9 +8,7 @@ tags: [linux, linux-permissions]
 meta-data: access, calculator, chgrp, chmod, chown, cli, command, convert, file, group line, linux, lookup, lpi octal, permission, permissions, perms, program, script, shell, symbolic, unix, user
 ---
 
-<script type="text/javascript">
-function do_chmod(c){var o=c+"4",e=c+"2",d=c+"1",m="t_"+c,u="sym_"+c,t=0,h="";1==document.chmod[o].checked&&(t+=4),1==document.chmod[e].checked&&(t+=2),1==document.chmod[d].checked&&(t+=1),h+=1==document.chmod[o].checked?"r":"-",h+=1==document.chmod[e].checked?"w":"-",h+=1==document.chmod[d].checked?"x":"-",0==t&&(t=""),document.chmod[m].value=t,document.chmod[u].value=h,document.chmod.t_total.value=document.chmod.t_owner.value+document.chmod.t_group.value+document.chmod.t_other.value,document.chmod.sym_total.value="-"+document.chmod.sym_owner.value+document.chmod.sym_group.value+document.chmod.sym_other.value}
-</script>
+Linux file access permissions are used to control who is able to read, write and execute a certain file.
 
 ## Contents
 
@@ -47,27 +45,11 @@ In linux, every file or folder has access permissions. Linux file permissions ar
     
 `u` is the user's permissions, `g` is the group's permissions & `o` other, can be any number between 0-7
 
-### Permission Indicators:
+#### Permission Indicators:
 
-![Permission Indicators](/assets/posts/2017-04-15-linux-permissions-explained/permission_indicators.jpg){:class="img-responsive"}
-   
-### Chmod octal value binary value and meaning:
-`chmod` stands for `change mode`
+[comment]:![Permission Indicators](/assets/posts/2017-04-15-linux-permissions-explained/permission_indicators.jpg){:class="img-responsive"}
 
-Dash (–) means no permission.
-
-| Octal | Read | Write | Execute | Binary | Meaning |
-| :------ |:----| :---- | :---- | :------ | :------ |
-| 7 | r | w | x | 1 1 1 | Full permissions	|
-| 6 | r | w | - | 1 1 0 | Read & write only	|
-| 5 | r | - | x | 1 0 1 | Read & execute only	|
-| 4 | r | - | - | 1 0 0 | Read only	|
-| 3 | - | w | x | 0 1 1 | Write & execute only	|
-| 2 | - | w | - | 0 1 0 | Write only	|
-| 1 | - | - | x | 0 0 1 | Execute only	|
-| 0 | - | - | - | 0 0 0 | No permissions	|
-
----
+{% include image.html name="permission_indicators.jpg"  alt="Linux Permission Indicators" %}
    
 #### View Permissions:
 Syntax below
@@ -94,6 +76,22 @@ changes permission of file bar.sh the named file to executable.
 
 * `+` - adds permissions
 * `x` - executable rights 
+   
+#### Chmod octal value binary value and meaning:
+`chmod` stands for `change mode`
+
+Dash (–) means no permission.
+
+| Octal | Read | Write | Execute | Binary | Meaning |
+| :------ |:----| :---- | :---- | :------ | :------ |
+| 7 | r | w | x | 1 1 1 | Full permissions	|
+| 6 | r | w | - | 1 1 0 | Read & write only	|
+| 5 | r | - | x | 1 0 1 | Read & execute only	|
+| 4 | r | - | - | 1 0 0 | Read only	|
+| 3 | - | w | x | 0 1 1 | Write & execute only	|
+| 2 | - | w | - | 0 1 0 | Write only	|
+| 1 | - | - | x | 0 0 1 | Execute only	|
+| 0 | - | - | - | 0 0 0 | No permissions	|
 
 ---
    
@@ -146,4 +144,8 @@ os.chmod("/anydir/anyfile", 0777)
 ```
 
 ---
+
+<script type="text/javascript">
+function do_chmod(c){var o=c+"4",e=c+"2",d=c+"1",m="t_"+c,u="sym_"+c,t=0,h="";1==document.chmod[o].checked&&(t+=4),1==document.chmod[e].checked&&(t+=2),1==document.chmod[d].checked&&(t+=1),h+=1==document.chmod[o].checked?"r":"-",h+=1==document.chmod[e].checked?"w":"-",h+=1==document.chmod[d].checked?"x":"-",0==t&&(t=""),document.chmod[m].value=t,document.chmod[u].value=h,document.chmod.t_total.value=document.chmod.t_owner.value+document.chmod.t_group.value+document.chmod.t_other.value,document.chmod.sym_total.value="-"+document.chmod.sym_owner.value+document.chmod.sym_group.value+document.chmod.sym_other.value}
+</script>
    

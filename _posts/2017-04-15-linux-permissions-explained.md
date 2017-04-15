@@ -9,24 +9,26 @@ tags: [linux, linux-permissions]
 
 ## Contents
 
-* [What are File permissions ?](#file-permissions-?)
-* [Permissions types](#what-are-file-permissions-?)
-* [Types of users](#permissions-types)
-* [Octal table](#chmod-octal-value-binary-value-and-meaning)
+* [Linux Permissions](#)
+	* [What are File permissions ?](#file-permissions-?)
+	* [Permissions types](#what-are-file-permissions-?)
+	* [Types of users](#permissions-types)
+	* [Octal table](#chmod-octal-value-binary-value-and-meaning)
+* [Code Examples](#code-examples)
 
 ---
    
-#### What are File permissions ?
+#### What are File Permissions ?
 In linux, every file or folder has access permissions. Linux file permissions are **9** bits of information (3 types x 3 type of users)
 
 [comment]:Linux has 2 basic file types _normal and special_
 
-#### Permissions types:
+#### Permissions Types:
 	- (r)read access
 	- (w)write access
 	- (x)execute access
 
-#### Permissions are defined for 3 types of users:
+#### Types of users:
 	- (u)owner of the file 
     - (g)group the owner belongs
     - (o)other users
@@ -79,6 +81,50 @@ changes permission of file bar.sh the named file to executable.
 
 * `+` - adds permissions
 * `x` - executable rights 
+
+---
+
+### Code Examples:
+
+----
+
+#### Golang:
+***Format***: 
+`os.Chmod(path, mode)`  [click here for docs](https://golang.org/pkg/os/#Chmod){:target="_blank"}
+
+```
+package main
+
+import "os"
+
+err := os.Chmod("file.txt", 0777)
+ if err != nil {
+     fmt.Println(err)
+ }
+```
+
+-----
+
+#### PHP:
+***Format***: `chmod( string $path, int $mode);`  [click here for docs](https://secure.php.net/manual/en/function.chmod.php){:target="_blank"}
+
+```
+<?php
+   chmod("/somedir/somefile", 755);   // decimal; probably incorrect
+   chmod("/somedir/somefile", "u+rwx,go+rx"); // string; incorrect
+   chmod("/somedir/somefile", 0755);  // octal; correct value of mode
+?>
+```
+
+-----
+
+#### Python:
+***Format***: `os.chmod(path, mode)`  [click here for docs](https://docs.python.org/2/library/os.html#os.chmod){:target="_blank"}
+
+``` 
+import os
+os.chmod("/anydir/anyfile", 0777)
+```
 
 ---
    

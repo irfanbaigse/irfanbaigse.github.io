@@ -15,17 +15,19 @@ I am an agile developer, following agile and lean principles in my professional 
 
 ***What I do***: Since 2011, I have been working as a programmer I write mostly in PHP, but also in Go and JavaScript.
 
-What else do you need?
+***What else do you need?***
 
 ___
 
-**Github Card**
+### Gihub Card
+
 <div markdown="1" id="github-card" data-username="irfanbaigdev">
-
 </div>
+
 ___
 
-## My history
+
+### My History
 ```
 Oct 2015 – Present  | Tajawal
 

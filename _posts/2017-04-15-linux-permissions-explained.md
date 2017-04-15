@@ -4,38 +4,46 @@ title: Linux Permissions Explained
 image: /img/linux_permissions.jpg
 subtitle: Understanding linux file permissions
 show-avatar: false
-tags: [linux, exciting-stuff]
+tags: [linux, linux-permissions, exciting-stuff]
 ---
 
+In linux, every file or folder has access permissions. Linux file permissions are **9** bits of information (3 types x 3 type of users)
 
+**Permissions are defined for 3 types of users:**
 
-**In Linux, there are two types of users**
+	- (u)Owner of the file 
+    - (g)Group the owner belongs
+    - (o)Other users
+    
+`u` is the user's permissions, `g` is the group's permissions & `o` other, can be any number between 0-7
 
-	- system users 
-    - regular users
-    
-System users are used to run non-interactive or background processes on a system and regular users used for logging in and running processes interactively  
-    
-    
-**View Permissions**
-```
-$ls -al [path]
-```
-    
-**Give Permissions**
-```
-$chmod [permission] [path]
-```
-    
-**Chmod Octal, Binary & Meaning**
+**Chmod Octal, Binary & Meaning:**
+read (r), write (w), execute (x); the dash (–) means no permission.
 
-| Octal Value | Read | Write | Execute | Binary value | Meaning |
-| :------ |:------ | :------ | :------ | :------ | 
-| 7 | r | w | x | 111 |	Full permissions	|
-| 6 | r | w | - | 110 |	Read & write only	|
-| 5 | r | - | x | 101 |	Read & execute only	|
-| 4 | r | - | - | 100 |	Read only	|
-| 3 | - | w | x | 011 |	Write & execute only	|
-| 2 | - | w | - | 010 |	Write only	|
-| 1 | - | - | x | 001 |	Execute only	|
-| 0 | - | - | - | 000 |	No permissions	|
+| Octal | Read | Write | Execute | Binary | Meaning |
+| :------ |:----| :---- | :---- | :------ | :------ |
+| 7 | r | w | x | 1 1 1 | Full permissions	|
+| 6 | r | w | - | 1 1 0 | Read & write only	|
+| 5 | r | - | x | 1 0 1 | Read & execute only	|
+| 4 | r | - | - | 1 0 0 | Read only	|
+| 3 | - | w | x | 0 1 1 | Write & execute only	|
+| 2 | - | w | - | 0 1 0 | Write only	|
+| 1 | - | - | x | 0 0 1 | Execute only	|
+| 0 | - | - | - | 0 0 0 | No permissions	|
+    
+**View Permissions:**
+
+`$ls -l` -- List items in current directory and show permissions.
+ 
+`$ls -l [path]` -- Path also can be specified as an option.
+
+**Setting Permissions with chmod:** Syntax below
+
+`$chmod [permission] [path for file or folder]`
+
+where `[permission]` can be either octal or symbolic notation e.g:
+
+```
+chmod 077 foo.sh   # octal
+chmod +x bar.sh    # symbolic
+```

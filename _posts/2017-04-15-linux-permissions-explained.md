@@ -3,7 +3,7 @@ layout: post
 title: Linux Permissions Explained
 image: /img/linux_permissions.jpg
 subtitle: Understanding linux file permissions
-show-avatar: false
+show-avatar: true
 tags: [linux, linux-permissions]
 meta-data: access, calculator, chgrp, chmod, chown, cli, command, convert, file, group line, linux, lookup, lpi octal, permission, permissions, perms, program, script, shell, symbolic, unix, user
 ---

@@ -5,6 +5,7 @@ image: /img/linux_permissions.jpg
 subtitle: Understanding linux file permissions
 show-avatar: false
 tags: [linux, linux-permissions]
+meta-data: unix, linux, permissions, calculator, perms, chmod, chown, chgrp, octal, symbolic, lookup, convert
 ---
 
 ## Contents

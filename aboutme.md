@@ -11,7 +11,7 @@ I am a programmer with a strong focus on backend development.
 
 I am an agile developer, following agile and lean principles in my professional life.
 
-***Education***: I finished my B.E in the E&C at VTU in 2011.
+***Education***: I finished my B.E in the E&C at [VTU](https://en.wikipedia.org/wiki/Visvesvaraya_Technological_University){:target="_blank"} in 2011.
 
 ***What I do***: Since 2011, I have been working as a programmer I write mostly in PHP, but also in Go and JavaScript.
 

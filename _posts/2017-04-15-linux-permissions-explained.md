@@ -45,8 +45,12 @@ In linux, every file or folder has access permissions. Linux file permissions ar
     - (o)other users
     
 `u` is the user's permissions, `g` is the group's permissions & `o` other, can be any number between 0-7
+
+### Permission Indicators:
+
+![Permission Indicators](/assets/posts/2017-04-15-linux-permissions-explained/permission_indicators.png){:class="img-responsive"}
    
-#### Chmod octal value binary value and meaning:
+### Chmod octal value binary value and meaning:
 `chmod` stands for `change mode`
 
 Dash (–) means no permission.

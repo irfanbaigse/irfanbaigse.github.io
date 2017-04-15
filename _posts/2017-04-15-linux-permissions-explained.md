@@ -4,22 +4,29 @@ title: Linux Permissions Explained
 image: /img/linux_permissions.jpg
 subtitle: Understanding linux file permissions
 show-avatar: false
-tags: [linux, linux-permissions, exciting-stuff]
+tags: [linux, linux-permissions]
 ---
-***File permissions ?***
 
+## Contents
+
+* [What are File permissions ?](#file-permissions-?)
+* [Permissions types](#what-are-file-permissions-?)
+* [Types of users](#permissions-types)
+* [Octal table](#chmod-octal-value-binary-value-and-meaning)
+
+---
+   
+#### What are File permissions ?
 In linux, every file or folder has access permissions. Linux file permissions are **9** bits of information (3 types x 3 type of users)
 
 [comment]:Linux has 2 basic file types _normal and special_
 
-***Permissions types:***
-
+#### Permissions types:
 	- (r)read access
 	- (w)write access
 	- (x)execute access
 
-***Permissions are defined for 3 types of users:***
-
+#### Permissions are defined for 3 types of users:
 	- (u)owner of the file 
     - (g)group the owner belongs
     - (o)other users
@@ -28,7 +35,7 @@ In linux, every file or folder has access permissions. Linux file permissions ar
 
 ---
    
-***Chmod Octal, Binary & Meaning:***
+#### Chmod octal value binary value and meaning:
 `chmod` stands for `change mode`
 
 Dash (–) means no permission.
@@ -46,7 +53,7 @@ Dash (–) means no permission.
 
 ---
     
-***View Permissions:***
+#### View Permissions:
 
 Syntax below
 
@@ -56,8 +63,7 @@ Syntax below
 
 ---
    
-***Setting Permissions with chmod:***
-
+#### Setting Permissions with chmod:
 Syntax below
 
 `[~]$chmod [permission] [path of file or folder]`
@@ -68,5 +74,11 @@ where `[permission]` can be either octal or symbolic notation e.g:
 chmod 077 foo.sh   # octal
 chmod +x bar.sh    # symbolic
 ```
+
+changes permission of file bar.sh the named file to executable.
+
+* `+` - adds permissions
+* `x` - executable rights 
+
 ---
    

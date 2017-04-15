@@ -12,6 +12,10 @@
   <meta name="description" content="{{ page.subtitle }}">
   {% endif %}
 
+  {% if page.meta-data %}
+  <meta name="keywords" content="{{ page.meta-data }}">
+  {% endif %}
+
   <link rel="alternate" type="application/rss+xml" title="{{ site.title }} {{ site.title-separator }} {{ site.description }}" href="{{ site.baseurl }}/feed.xml" />
 
   {% include gtm_head.html %}

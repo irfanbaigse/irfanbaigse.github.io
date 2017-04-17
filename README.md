@@ -9,3 +9,8 @@ Irfan Baig
 <irfan.blackhawk@gmail.com>
 
 Please see [irfanbaigdev.info](http://www.irfanbaigdev.info/) for the content of this web page.
+
+---
+
+Like the blog ? Wanna setup for yourself ?
+[Click here for instructions](https://github.com/irfanbaigdev/irfanbaigdev.github.io/blob/master/setup.md)

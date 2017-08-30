@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Docker in a Nutshell
-image: /img/docker/docker-api.png
+image: /img/docker/docker.png
 subtitle: Quick Introduction to Docker
 show-avatar: true
 comments: true

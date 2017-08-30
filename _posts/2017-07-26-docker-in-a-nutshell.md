@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Docker in a Nutshell
+title: Docker in 5 Minutes
 image: /img/docker/docker.png
 subtitle: Quick Introduction to Docker
 show-avatar: true

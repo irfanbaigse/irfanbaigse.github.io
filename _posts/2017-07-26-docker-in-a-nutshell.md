@@ -5,7 +5,7 @@ image: /img/docker/docker-api.png
 subtitle: Quick Introduction to Docker
 show-avatar: true
 comments: true
-tags: [docker,docker-machine]
+tags: [docker,docker-machine,docker images, docker containers]
 author: irfan
 meta-data: images, containers, local daemons, volumes, networks, swarm nodes, swarm services
 ---

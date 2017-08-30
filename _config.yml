@@ -23,14 +23,14 @@ description: Blog, scrapbook, and virtual space for my experiments
 
 # List of links in the navigation bar
 navbar-links:
-  Home: "http://www.irfanbaigdev.info"
+  Home: "http://www.irfanbaigse.info"
   Blogs: "#"
   About Me: "aboutme"
 #  Resources:
-#    - Beautiful Jekyll: "http://irfanbaigdev.com/beautiful-jekyll/"
+#    - Beautiful Jekyll: "http://irfanbaigse.com/beautiful-jekyll/"
 #    - Learn markdown: "http://www.markdowntutorial.com/"
 #    - GitHub Pages: "https://pages.github.com/"
-#  Author's home: "http://www.irfanbaigdev.info"
+#  Author's home: "http://www.irfanbaigse.info"
 
 # Image to show in the navigation bar - image must be a square (width = height)
 # Remove this parameter if you don't want an image in the navbar
@@ -47,14 +47,14 @@ avatar: "/img/avatar-icon.png"
 author:
   name: Irfan baig
   email: "irfan.blackhawk@gmail.com"
-  facebook: irfanbaigdev
-  github: irfanbaigdev
-  twitter: irfanbaigdev
-  reddit: irfanbaigdev
-  google-plus: +IrfanBaigDev   # eg. +irfanbaigdev or 109424658772469020925
-  linkedin: irfanbaigdev  # eg. daattali
+  facebook: irfanbaigse
+  github: irfanbaigse
+  twitter: irfanbaigse
+  reddit: irfanbaigse
+  google-plus: +irfanbaigse   # eg. +irfanbaigse or 109424658772469020925
+  linkedin: irfanbaigse  # eg. daattali
   xing: yourname      # eg. daattali
-  stackoverflow: 1906136/irfanbaigdev  # eg. "3943160/daattali"
+  stackoverflow: 1906136/irfanbaigse  # eg. "3943160/daattali"
   snapchat: yourname  # eg. daattali
   instagram: yourname # eg. daattali
   youtube: yourlink   # eg. user/daattali or channel/daattali
@@ -67,9 +67,9 @@ authors:
     display_name: Irfan baig
     gravatar: c87ab635443e6f65369bbe467b956445
     email: irfan.blackhawk@gmail.com
-    web: http://www.irfanbaigdev.info
-    twitter: irfanbaigdev
-    github: irfanbaigdev
+    web: http://www.irfanbaigse.info
+    twitter: irfanbaigse
+    github: irfanbaigse
 
 # Select which links to show in the footer
 footer-links-active:

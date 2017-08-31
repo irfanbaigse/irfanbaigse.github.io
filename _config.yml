@@ -100,11 +100,11 @@ share-links-active:
 
 # How to display the link to the website in the footer
 # Remove this if you don't want a link in the footer
-url-pretty: "irfanbaigdev.github.io"  # eg. "irfanbaigdev.com/beautiful-jekyll"
+url-pretty: "irfanbaigse.github.io"  # eg. "irfanbaigse.com/beautiful-jekyll"
 
 # --- Misc --- #
 # Fill in your Disqus shortname (NOT the userid) if you want to support Disqus comments
-disqus: "http-www-irfanbaigdev-info"
+disqus: "http-www-irfanbaigse-info"
 
 # Fill in your Google Analytics ID to track your website using GA
 google_analytics: "UA-97405342-1"
